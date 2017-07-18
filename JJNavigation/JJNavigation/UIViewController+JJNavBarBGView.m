@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+JJNavBarBGView.h"
-
+#import "JJDefaultItemTitleView.h"
 static const void *kNavBarBackgroundViewKey = &kNavBarBackgroundViewKey;
 static const void *kStatusBarBackgroundViewKey = &kStatusBarBackgroundViewKey;
 static const void *kLeftNavItemModelArrayKey = &kLeftNavItemModelArrayKey;
@@ -62,8 +62,32 @@ static const void *kTitleNavItemModelKey = &kTitleNavItemModelKey;
     int index = 0;
     for (JJNavBarItemModel *navBarItemModel in modelArray) {
         
+        //设置item数据model其他属性
         navBarItemModel.tag = index;
+        navBarItemModel.navBarItemType = itemType;
+        //生成itemView
+//        JJSuperNavItemBGView *itemBGView = [self ]
         
+    }
+}
+
+//根据nibName生成nib对象
+-(id)createNavItemBGViewWithNavItemModel:(JJNavBarItemModel *)itemModel
+{
+    NSString *nibName = itemModel.nibName;
+    JJNavItemType itemType = itemModel.navBarItemType;
+    
+    if (itemType == JJNavItemTypeNone)
+    {
+        //没有设置类型
+        return nil;
+    }
+    else
+    {
+        BOOL isEmpty = !nibName || [nibName isEqualToString:@""];
+        Class navItemBGViewClass = NSClassFromString(isEmpty?(itemType==JJNavItemTypeTitle?NSStringFromClass([JJDefaultItemTitleView class]):NSStringFromClass([JJDefaultItemTitleView class])):nibName);
+        id navItemBGView = [navItemBGViewClass createNavItemViewFromXIB];
+        return navItemBGView;
     }
 }
 

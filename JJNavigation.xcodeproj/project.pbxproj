@@ -19,6 +19,8 @@
 		1C20252C1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20252B1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m */; };
 		1C20252F1F1CA0830050A122 /* JJNavBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */; };
 		1C2025321F1CAC850050A122 /* JJSuperNavItemBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */; };
+		1C829CB51F1E147C0083FCAD /* JJDefaultItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */; };
+		1C829CB71F1E14F80083FCAD /* JJDefaultItemTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavBarItemModel.m; sourceTree = "<group>"; };
 		1C2025301F1CAC850050A122 /* JJSuperNavItemBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSuperNavItemBGView.h; sourceTree = "<group>"; };
 		1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSuperNavItemBGView.m; sourceTree = "<group>"; };
+		1C829CB31F1E147C0083FCAD /* JJDefaultItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDefaultItemTitleView.h; sourceTree = "<group>"; };
+		1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDefaultItemTitleView.m; sourceTree = "<group>"; };
+		1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDefaultItemTitleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +169,9 @@
 				1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */,
 				1C2025301F1CAC850050A122 /* JJSuperNavItemBGView.h */,
 				1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */,
+				1C829CB31F1E147C0083FCAD /* JJDefaultItemTitleView.h */,
+				1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */,
+				1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */,
 			);
 			path = JJNavigation;
 			sourceTree = "<group>";
@@ -274,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C829CB71F1E14F80083FCAD /* JJDefaultItemTitleView.xib in Resources */,
 				1C2025001F1C9BAA0050A122 /* LaunchScreen.storyboard in Resources */,
 				1C2024FD1F1C9BAA0050A122 /* Assets.xcassets in Resources */,
 				1C2024FB1F1C9BAA0050A122 /* Main.storyboard in Resources */,
@@ -301,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C829CB51F1E147C0083FCAD /* JJDefaultItemTitleView.m in Sources */,
 				1C20252F1F1CA0830050A122 /* JJNavBarItemModel.m in Sources */,
 				1C2025321F1CAC850050A122 /* JJSuperNavItemBGView.m in Sources */,
 				1C2024F81F1C9BAA0050A122 /* ViewController.m in Sources */,
@@ -541,6 +551,7 @@
 				1C20251C1F1C9BAA0050A122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C20251D1F1C9BAA0050A122 /* Build configuration list for PBXNativeTarget "JJNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +560,7 @@
 				1C20251F1F1C9BAA0050A122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C2025201F1C9BAA0050A122 /* Build configuration list for PBXNativeTarget "JJNavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +569,7 @@
 				1C2025221F1C9BAA0050A122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
