@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JJNavigationController.h"
+#import "ViewControllerA.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ViewControllerA *va = [[ViewControllerA alloc]init];
+    JJNavigationController *nav = [[JJNavigationController alloc]initWithRootViewController:va];
+    self.window = [[UIWindow alloc]init];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

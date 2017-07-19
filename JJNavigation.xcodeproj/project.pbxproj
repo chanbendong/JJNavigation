@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		1C2024F21F1C9BAA0050A122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2024F11F1C9BAA0050A122 /* main.m */; };
 		1C2024F51F1C9BAA0050A122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2024F41F1C9BAA0050A122 /* AppDelegate.m */; };
-		1C2024F81F1C9BAA0050A122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2024F71F1C9BAA0050A122 /* ViewController.m */; };
 		1C2024FB1F1C9BAA0050A122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2024F91F1C9BAA0050A122 /* Main.storyboard */; };
 		1C2024FD1F1C9BAA0050A122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2024FC1F1C9BAA0050A122 /* Assets.xcassets */; };
 		1C2025001F1C9BAA0050A122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2024FE1F1C9BAA0050A122 /* LaunchScreen.storyboard */; };
 		1C20250B1F1C9BAA0050A122 /* JJNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20250A1F1C9BAA0050A122 /* JJNavigationTests.m */; };
 		1C2025161F1C9BAA0050A122 /* JJNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2025151F1C9BAA0050A122 /* JJNavigationUITests.m */; };
-		1C2025291F1C9EAD0050A122 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2025281F1C9EAD0050A122 /* JJNavigationController.m */; };
-		1C20252C1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20252B1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m */; };
-		1C20252F1F1CA0830050A122 /* JJNavBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */; };
-		1C2025321F1CAC850050A122 /* JJSuperNavItemBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */; };
-		1C829CB51F1E147C0083FCAD /* JJDefaultItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */; };
-		1C829CB71F1E14F80083FCAD /* JJDefaultItemTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */; };
+		1C766DA01F1F013000CDB315 /* JJNavBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766D971F1F013000CDB315 /* JJNavBarItemModel.m */; };
+		1C766DA11F1F013000CDB315 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766D991F1F013000CDB315 /* JJNavigationController.m */; };
+		1C766DA21F1F013000CDB315 /* JJSuperNavItemBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766D9B1F1F013000CDB315 /* JJSuperNavItemBGView.m */; };
+		1C766DA31F1F013000CDB315 /* UIViewController+JJNavBarBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766D9D1F1F013000CDB315 /* UIViewController+JJNavBarBGView.m */; };
+		1C766DA61F1F022C00CDB315 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766DA51F1F022C00CDB315 /* ViewControllerA.m */; };
+		1C766DA91F1F31D500CDB315 /* JJDefaultItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766DA81F1F31D500CDB315 /* JJDefaultItemView.m */; };
+		1C766DAD1F1F350900CDB315 /* JJDefaultItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C766DAC1F1F350900CDB315 /* JJDefaultItemView.xib */; };
+		1C766DB51F1F3F2200CDB315 /* JJDefaultNavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C766DB41F1F3F2200CDB315 /* JJDefaultNavTitleView.m */; };
+		1C766DB71F1F3F3400CDB315 /* JJDefaultNavTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C766DB61F1F3F3400CDB315 /* JJDefaultNavTitleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +47,6 @@
 		1C2024F11F1C9BAA0050A122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C2024F31F1C9BAA0050A122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C2024F41F1C9BAA0050A122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C2024F61F1C9BAA0050A122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C2024F71F1C9BAA0050A122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C2024FA1F1C9BAA0050A122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C2024FC1F1C9BAA0050A122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2024FF1F1C9BAA0050A122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,17 +57,22 @@
 		1C2025111F1C9BAA0050A122 /* JJNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2025151F1C9BAA0050A122 /* JJNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationUITests.m; sourceTree = "<group>"; };
 		1C2025171F1C9BAA0050A122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C2025271F1C9EAD0050A122 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
-		1C2025281F1C9EAD0050A122 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
-		1C20252A1F1C9F120050A122 /* UIViewController+JJNavBarBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJNavBarBGView.h"; sourceTree = "<group>"; };
-		1C20252B1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJNavBarBGView.m"; sourceTree = "<group>"; };
-		1C20252D1F1CA0830050A122 /* JJNavBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavBarItemModel.h; sourceTree = "<group>"; };
-		1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavBarItemModel.m; sourceTree = "<group>"; };
-		1C2025301F1CAC850050A122 /* JJSuperNavItemBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSuperNavItemBGView.h; sourceTree = "<group>"; };
-		1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSuperNavItemBGView.m; sourceTree = "<group>"; };
-		1C829CB31F1E147C0083FCAD /* JJDefaultItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDefaultItemTitleView.h; sourceTree = "<group>"; };
-		1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDefaultItemTitleView.m; sourceTree = "<group>"; };
-		1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDefaultItemTitleView.xib; sourceTree = "<group>"; };
+		1C766D961F1F013000CDB315 /* JJNavBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavBarItemModel.h; sourceTree = "<group>"; };
+		1C766D971F1F013000CDB315 /* JJNavBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavBarItemModel.m; sourceTree = "<group>"; };
+		1C766D981F1F013000CDB315 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
+		1C766D991F1F013000CDB315 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
+		1C766D9A1F1F013000CDB315 /* JJSuperNavItemBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSuperNavItemBGView.h; sourceTree = "<group>"; };
+		1C766D9B1F1F013000CDB315 /* JJSuperNavItemBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSuperNavItemBGView.m; sourceTree = "<group>"; };
+		1C766D9C1F1F013000CDB315 /* UIViewController+JJNavBarBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JJNavBarBGView.h"; sourceTree = "<group>"; };
+		1C766D9D1F1F013000CDB315 /* UIViewController+JJNavBarBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JJNavBarBGView.m"; sourceTree = "<group>"; };
+		1C766DA41F1F022C00CDB315 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		1C766DA51F1F022C00CDB315 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		1C766DA71F1F31D500CDB315 /* JJDefaultItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDefaultItemView.h; sourceTree = "<group>"; };
+		1C766DA81F1F31D500CDB315 /* JJDefaultItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDefaultItemView.m; sourceTree = "<group>"; };
+		1C766DAC1F1F350900CDB315 /* JJDefaultItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDefaultItemView.xib; sourceTree = "<group>"; };
+		1C766DB31F1F3F2200CDB315 /* JJDefaultNavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDefaultNavTitleView.h; sourceTree = "<group>"; };
+		1C766DB41F1F3F2200CDB315 /* JJDefaultNavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDefaultNavTitleView.m; sourceTree = "<group>"; };
+		1C766DB61F1F3F3400CDB315 /* JJDefaultNavTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDefaultNavTitleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +123,11 @@
 		1C2024EF1F1C9BAA0050A122 /* JJNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				1C2025261F1C9EAD0050A122 /* JJNavigation */,
+				1C766D921F1F013000CDB315 /* JJNavigationVC */,
 				1C2024F31F1C9BAA0050A122 /* AppDelegate.h */,
 				1C2024F41F1C9BAA0050A122 /* AppDelegate.m */,
-				1C2024F61F1C9BAA0050A122 /* ViewController.h */,
-				1C2024F71F1C9BAA0050A122 /* ViewController.m */,
+				1C766DA41F1F022C00CDB315 /* ViewControllerA.h */,
+				1C766DA51F1F022C00CDB315 /* ViewControllerA.m */,
 				1C2024F91F1C9BAA0050A122 /* Main.storyboard */,
 				1C2024FC1F1C9BAA0050A122 /* Assets.xcassets */,
 				1C2024FE1F1C9BAA0050A122 /* LaunchScreen.storyboard */,
@@ -158,22 +163,25 @@
 			path = JJNavigationUITests;
 			sourceTree = "<group>";
 		};
-		1C2025261F1C9EAD0050A122 /* JJNavigation */ = {
+		1C766D921F1F013000CDB315 /* JJNavigationVC */ = {
 			isa = PBXGroup;
 			children = (
-				1C2025271F1C9EAD0050A122 /* JJNavigationController.h */,
-				1C2025281F1C9EAD0050A122 /* JJNavigationController.m */,
-				1C20252A1F1C9F120050A122 /* UIViewController+JJNavBarBGView.h */,
-				1C20252B1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m */,
-				1C20252D1F1CA0830050A122 /* JJNavBarItemModel.h */,
-				1C20252E1F1CA0830050A122 /* JJNavBarItemModel.m */,
-				1C2025301F1CAC850050A122 /* JJSuperNavItemBGView.h */,
-				1C2025311F1CAC850050A122 /* JJSuperNavItemBGView.m */,
-				1C829CB31F1E147C0083FCAD /* JJDefaultItemTitleView.h */,
-				1C829CB41F1E147C0083FCAD /* JJDefaultItemTitleView.m */,
-				1C829CB61F1E14F80083FCAD /* JJDefaultItemTitleView.xib */,
+				1C766D961F1F013000CDB315 /* JJNavBarItemModel.h */,
+				1C766D971F1F013000CDB315 /* JJNavBarItemModel.m */,
+				1C766D981F1F013000CDB315 /* JJNavigationController.h */,
+				1C766D991F1F013000CDB315 /* JJNavigationController.m */,
+				1C766D9A1F1F013000CDB315 /* JJSuperNavItemBGView.h */,
+				1C766D9B1F1F013000CDB315 /* JJSuperNavItemBGView.m */,
+				1C766D9C1F1F013000CDB315 /* UIViewController+JJNavBarBGView.h */,
+				1C766D9D1F1F013000CDB315 /* UIViewController+JJNavBarBGView.m */,
+				1C766DA71F1F31D500CDB315 /* JJDefaultItemView.h */,
+				1C766DA81F1F31D500CDB315 /* JJDefaultItemView.m */,
+				1C766DAC1F1F350900CDB315 /* JJDefaultItemView.xib */,
+				1C766DB31F1F3F2200CDB315 /* JJDefaultNavTitleView.h */,
+				1C766DB41F1F3F2200CDB315 /* JJDefaultNavTitleView.m */,
+				1C766DB61F1F3F3400CDB315 /* JJDefaultNavTitleView.xib */,
 			);
-			path = JJNavigation;
+			path = JJNavigationVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +251,7 @@
 				TargetAttributes = {
 					1C2024EC1F1C9BAA0050A122 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NR9J7G5Y35;
 						ProvisioningStyle = Automatic;
 					};
 					1C2025051F1C9BAA0050A122 = {
@@ -282,8 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C829CB71F1E14F80083FCAD /* JJDefaultItemTitleView.xib in Resources */,
 				1C2025001F1C9BAA0050A122 /* LaunchScreen.storyboard in Resources */,
+				1C766DB71F1F3F3400CDB315 /* JJDefaultNavTitleView.xib in Resources */,
+				1C766DAD1F1F350900CDB315 /* JJDefaultItemView.xib in Resources */,
 				1C2024FD1F1C9BAA0050A122 /* Assets.xcassets in Resources */,
 				1C2024FB1F1C9BAA0050A122 /* Main.storyboard in Resources */,
 			);
@@ -310,14 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C829CB51F1E147C0083FCAD /* JJDefaultItemTitleView.m in Sources */,
-				1C20252F1F1CA0830050A122 /* JJNavBarItemModel.m in Sources */,
-				1C2025321F1CAC850050A122 /* JJSuperNavItemBGView.m in Sources */,
-				1C2024F81F1C9BAA0050A122 /* ViewController.m in Sources */,
+				1C766DB51F1F3F2200CDB315 /* JJDefaultNavTitleView.m in Sources */,
+				1C766DA21F1F013000CDB315 /* JJSuperNavItemBGView.m in Sources */,
+				1C766DA91F1F31D500CDB315 /* JJDefaultItemView.m in Sources */,
+				1C766DA31F1F013000CDB315 /* UIViewController+JJNavBarBGView.m in Sources */,
+				1C766DA01F1F013000CDB315 /* JJNavBarItemModel.m in Sources */,
+				1C766DA61F1F022C00CDB315 /* ViewControllerA.m in Sources */,
 				1C2024F51F1C9BAA0050A122 /* AppDelegate.m in Sources */,
 				1C2024F21F1C9BAA0050A122 /* main.m in Sources */,
-				1C20252C1F1C9F120050A122 /* UIViewController+JJNavBarBGView.m in Sources */,
-				1C2025291F1C9EAD0050A122 /* JJNavigationController.m in Sources */,
+				1C766DA11F1F013000CDB315 /* JJNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,9 +479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR9J7G5Y35;
 				INFOPLIST_FILE = JJNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ss.JJNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = heima.personnalPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -479,9 +491,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NR9J7G5Y35;
 				INFOPLIST_FILE = JJNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ss.JJNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = heima.personnalPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

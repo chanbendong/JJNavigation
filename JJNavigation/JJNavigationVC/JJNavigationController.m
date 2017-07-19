@@ -20,7 +20,20 @@
     //设置navigationbar的item
     
      self.interactivePopGestureRecognizer.delegate = (id<UIGestureRecognizerDelegate>)self;
+    [self.navigationBar setBackgroundImage:[self createImgByColor:[UIColor clearColor]] forBarMetrics:UIBarMetricsDefault];
+}
+
+- (UIImage *)createImgByColor:(UIColor *)color
+{
     
+    CGRect frame = CGRectMake(0, 0, 1.f, 1.f);
+    UIGraphicsBeginImageContext(frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, frame);
+    UIImage *theImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return theImage;
 }
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer

@@ -35,8 +35,18 @@
     [_navBarItemModel setCallbackModelReloadAction:^{
         [weakSelf reloadNavItem];
     }];
+    [self reloadNavItem];
 }
 
+- (void)updateFrame
+{
+    
+}
+
+- (void)reloadNavItem
+{
+    
+}
 
 - (void)resizeFrame:(CGRect)toFrame
 {

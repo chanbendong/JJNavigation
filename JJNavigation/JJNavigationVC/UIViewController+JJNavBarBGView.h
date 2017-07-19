@@ -11,6 +11,8 @@
 #import "JJNavBarItemModel.h"
 #import "JJSuperNavItemBGView.h"
 
+#define kSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
 @interface UIViewController (JJNavBarBGView)
 
 //view

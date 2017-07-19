@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JJDefaultItemView">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navbar-back-black" translatesAutoresizingMaskIntoConstraints="NO" id="nWA-AP-lnk">
+                    <rect key="frame" x="2" y="22.5" width="10" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="eaL-vC-lSg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ua-Ul-gnX">
+                    <rect key="frame" x="17" y="0.0" width="123" height="60"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMG-RF-Xqt">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="60"/>
+                    <connections>
+                        <action selector="btnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="QwL-2H-DMs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IMG-RF-Xqt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3o0-YH-GKl"/>
+                <constraint firstAttribute="trailing" secondItem="IMG-RF-Xqt" secondAttribute="trailing" id="456-hC-FNP"/>
+                <constraint firstAttribute="trailing" secondItem="1Ua-Ul-gnX" secondAttribute="trailing" id="C3j-OB-QtW"/>
+                <constraint firstItem="nWA-AP-lnk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="2" id="FTE-l1-1qV"/>
+                <constraint firstAttribute="bottom" secondItem="1Ua-Ul-gnX" secondAttribute="bottom" id="Hjt-ra-iDU"/>
+                <constraint firstAttribute="bottom" secondItem="IMG-RF-Xqt" secondAttribute="bottom" id="fVx-Aa-kos"/>
+                <constraint firstItem="1Ua-Ul-gnX" firstAttribute="leading" secondItem="nWA-AP-lnk" secondAttribute="trailing" constant="5" id="lzR-vO-PAh"/>
+                <constraint firstItem="1Ua-Ul-gnX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oXU-eG-pPP"/>
+                <constraint firstItem="nWA-AP-lnk" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="otM-QH-cdN"/>
+                <constraint firstItem="IMG-RF-Xqt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ylK-G1-q58"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnClick" destination="IMG-RF-Xqt" id="FJJ-BG-bv4"/>
+                <outlet property="constraintImageWidth" destination="eaL-vC-lSg" id="eXL-U0-CaZ"/>
+                <outlet property="constraintLabelLeading" destination="lzR-vO-PAh" id="HpT-61-Prk"/>
+                <outlet property="navImage" destination="nWA-AP-lnk" id="0x3-qv-8gH"/>
+                <outlet property="navLaebl" destination="1Ua-Ul-gnX" id="Yje-1w-Hrf"/>
+            </connections>
+            <point key="canvasLocation" x="-209" y="-270"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="navbar-back-black" width="10" height="15"/>
+    </resources>
+</document>
